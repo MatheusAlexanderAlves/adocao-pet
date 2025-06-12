@@ -1,0 +1,185 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Estilo do formulário */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box; /* Garante que a largura não ultrapasse o limite do contêiner */
+}
+
+textarea {
+  resize: vertical; /* Permite redimensionamento apenas na direção vertical */
+  min-height: 100px; /* Define uma altura mínima para o textarea */
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%; /* O botão agora ocupará toda a largura do formulário */
+}
+
+button:hover {
+  background-color: #cd0505;
+}
+
+button:active {
+  background-color: #387c3e;
+}
+
+form input,
+form textarea {
+  font-size: 16px;
+}
+
+form .form-group {
+  margin-bottom: 20px;
+}
+
+/* Estilo para o layout de navegação */
+nav {
+  margin: 20px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para a lista de animais */
+.listagem {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listagem li {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.listagem li img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.listagem li h3 {
+  margin: 0;
+  color: #333;
+}
+
+.listagem li p {
+  margin: 5px 0;
+}
+
+/* Estilo para os links de navegação */
+nav {
+  margin: 20px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* Estilo para o botão Adotar Pet */
+.btn-adotar {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.btn-adotar:hover {
+  background-color: #388e3c;
+}
+
+.btn-adotar:active {
+  background-color: #387c3e;
+}
+
+/* Estilo para o botão Remover Pet */
+.btn-remover {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-remover:hover {
+  background-color: #d32f2f;
+}
+
+.btn-remover:active {
+  background-color: #c62828;
+}
